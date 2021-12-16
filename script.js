@@ -5,4 +5,6 @@ const rightBtn = document.getElementById("right");
 
 let activeSlide = 0;
 
-function setBgToBody() {}
+function setBgToBody() {
+  body.style.backgroundImage = slides[activeSlide].style.backgroundImage;
+}
